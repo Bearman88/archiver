@@ -1,0 +1,7 @@
+python-docx
+pdfplumber
+python-pptx
+pandas
+pyyaml
+pillow
+pytesseract

@@ -1,0 +1,50 @@
+categories:
+  合同:
+    keywords:
+      - 合同
+      - 协议
+      - 补充协议
+    priority: 100
+
+  报告:
+    keywords:
+      - 报告
+      - 研究报告
+      - 分析报告
+    priority: 90
+
+  请示:
+    keywords:
+      - 请示
+      - 申请
+    priority: 80
+
+  决定:
+    keywords:
+      - 决定
+      - 决议
+    priority: 80
+
+  通知:
+    keywords:
+      - 通知
+      - 公告
+    priority: 70
+
+  会议纪要:
+    keywords:
+      - 会议纪要
+      - 纪要
+      - 会议记录
+    priority: 70
+
+special_groups:
+  Excel:
+    extensions: [".xls", ".xlsx"]
+
+  图例:
+    extensions: [".png", ".jpg", ".jpeg", ".vsdx"]
+
+fallback:
+  name: 未识别
+  min_score: 1
